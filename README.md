@@ -36,7 +36,7 @@ wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.c
 * 群主仅提供极其有限的支持，如有问题可以询问群友
 * 每周日的凌晨3点，Nginx 会自动重启以配合证书的签发定时任务进行，在此期间，节点无法正常连接，预计持续时间为若干秒至两分钟
 * 证书签发错误的原因是签发服务器已经不认默认的邮箱名:@example.com, 请修改脚本第430 行:
-    curl https://get.acme.sh | sh -s email="admin@youremail.com" 
+   > curl https://get.acme.sh | sh -s email="admin@youremail.com" 
     添加-s 参数, 把你的邮箱放进去. 很有效！
 
 ### 更新日志
